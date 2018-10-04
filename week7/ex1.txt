@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   1966	    608	      8	   2582	    a16	/home/danis/Desktop/OS_labs/week_3/ex1
