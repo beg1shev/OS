@@ -1,0 +1,1 @@
+Virtual memory will be useless calculations which are executed in real time. Also virtual memory is not needed when only real memory is used, for instance all memory specifications are known.
