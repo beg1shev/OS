@@ -1,0 +1,60 @@
+after removing execute permission for everybody:
+total 8
+-rw-r--r-- 3 danis danis  0 Oct 25 11:04 _ex1_1.txt
+-rw-r--r-- 3 danis danis  0 Oct 25 11:04 _ex1_2.txt
+-rw-r--r-- 3 danis danis  0 Oct 25 11:04 _ex1.txt
+-rw-r--r-- 1 danis danis 55 Oct 25 11:09 ex1.txt
+-rw-r--r-- 1 danis danis  0 Oct 25 11:12 _ex2.txt
+-rw-r--r-- 1 danis danis 44 Oct 25 11:43 ex2.txt
+-rw-rw-rw- 1 danis danis  0 Oct 25 18:50 _ex3.txt
+-rw-r--r-- 1 danis danis  0 Oct 25 18:51 ex3.txt
+after granting all permissions to owner and others:
+total 12
+-rw-r--r-- 3 danis danis   0 Oct 25 11:04 _ex1_1.txt
+-rw-r--r-- 3 danis danis   0 Oct 25 11:04 _ex1_2.txt
+-rw-r--r-- 3 danis danis   0 Oct 25 11:04 _ex1.txt
+-rw-r--r-- 1 danis danis  55 Oct 25 11:09 ex1.txt
+-rw-r--r-- 1 danis danis   0 Oct 25 11:12 _ex2.txt
+-rw-r--r-- 1 danis danis  44 Oct 25 11:43 ex2.txt
+-rwxrw-rwx 1 danis danis   0 Oct 25 18:50 _ex3.txt
+-rw-r--r-- 1 danis danis 409 Oct 25 18:51 ex3.txt
+after making group permissions equal to user permissions:
+total 12
+-rw-r--r-- 3 danis danis   0 Oct 25 11:04 _ex1_1.txt
+-rw-r--r-- 3 danis danis   0 Oct 25 11:04 _ex1_2.txt
+-rw-r--r-- 3 danis danis   0 Oct 25 11:04 _ex1.txt
+-rw-r--r-- 1 danis danis  55 Oct 25 11:09 ex1.txt
+-rw-r--r-- 1 danis danis   0 Oct 25 11:12 _ex2.txt
+-rw-r--r-- 1 danis danis  44 Oct 25 11:43 ex2.txt
+-rwxrwxrwx 1 danis danis   0 Oct 25 18:50 _ex3.txt
+-rw-r--r-- 1 danis danis 827 Oct 25 18:51 ex3.txt
+660(owner and group can read and write, others can't do any actions):
+total 16
+-rw-r--r-- 3 danis danis    0 Oct 25 11:04 _ex1_1.txt
+-rw-r--r-- 3 danis danis    0 Oct 25 11:04 _ex1_2.txt
+-rw-r--r-- 3 danis danis    0 Oct 25 11:04 _ex1.txt
+-rw-r--r-- 1 danis danis   55 Oct 25 11:09 ex1.txt
+-rw-r--r-- 1 danis danis    0 Oct 25 11:12 _ex2.txt
+-rw-r--r-- 1 danis danis   44 Oct 25 11:43 ex2.txt
+-rw-rw---- 1 danis danis  426 Oct 25 19:00 _ex3.txt
+-rw-r--r-- 1 danis danis 1671 Oct 25 19:00 ex3.txt
+775(owner and group can do anything, other can read and execute):
+total 16
+-rw-r--r-- 3 danis danis    0 Oct 25 11:04 _ex1_1.txt
+-rw-r--r-- 3 danis danis    0 Oct 25 11:04 _ex1_2.txt
+-rw-r--r-- 3 danis danis    0 Oct 25 11:04 _ex1.txt
+-rw-r--r-- 1 danis danis   55 Oct 25 11:09 ex1.txt
+-rw-r--r-- 1 danis danis    0 Oct 25 11:12 _ex2.txt
+-rw-r--r-- 1 danis danis   44 Oct 25 11:43 ex2.txt
+-rwxrwxr-x 1 danis danis  426 Oct 25 19:00 _ex3.txt
+-rw-r--r-- 1 danis danis 1245 Oct 25 18:52 ex3.txt
+777(all users can do anything):
+total 16
+-rw-r--r-- 3 danis danis    0 Oct 25 11:04 _ex1_1.txt
+-rw-r--r-- 3 danis danis    0 Oct 25 11:04 _ex1_2.txt
+-rw-r--r-- 3 danis danis    0 Oct 25 11:04 _ex1.txt
+-rw-r--r-- 1 danis danis   55 Oct 25 11:09 ex1.txt
+-rw-r--r-- 1 danis danis    0 Oct 25 11:12 _ex2.txt
+-rw-r--r-- 1 danis danis   44 Oct 25 11:43 ex2.txt
+-rwxrwxrwx 1 danis danis  426 Oct 25 19:00 _ex3.txt
+-rw-r--r-- 1 danis danis 2098 Oct 25 19:03 ex3.txt
