@@ -1,0 +1,2 @@
+The difference of two programs is because buffer prints something when it faces "\n".
+In the first program fork() copies both proccess and buffer, while in the second program fork() makes both buffers empty.
